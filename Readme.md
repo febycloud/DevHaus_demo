@@ -18,8 +18,7 @@ The Dockerfile must have a CMD that runs your server; and must have a HEALTHCHEC
 Automate the build using Github Actions so coverage reports are generated, and images are pushed to a container registry when new code is pushed.
 Prepare a 10-minute maximum presentation on how your code works; how the deployment to the registry is implemented and how to manage the changes where the audience would be an intermediate developer.
 ## This project is based on intermediate Developer
-
-Docker image is here
-	···
+Use the following code to install docker image<br>
+```
 	docker pull kunosa/demohub:devhaus
-	···
+```
