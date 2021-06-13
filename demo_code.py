@@ -20,7 +20,7 @@ def Devhaus():
 	result=[]
 	for i in range(1,106):
 		p=multiple_Of_Three(i)+multiple_Of_Five(i)+multiple_Of_Seven(i)
-		if p!="":
+		if p!="" and p!="Learning Model":
 			print(p)
 			result.append(p)
 		else:
